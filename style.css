@@ -1,0 +1,243 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color: #e8eaee;
+  line-height: 1.5;
+}
+
+.container {
+  margin: 0 166px;
+}
+
+.header {
+  padding-top: 25px;
+}
+
+.header-list {
+  font-family: "Walter Turncoat", cursive;
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav {
+  color: black;
+  text-decoration: none;
+}
+
+.header-title {
+  color: black;
+  text-decoration: none;
+}
+
+.br {
+  position: absolute;
+  left: 200px;
+}
+
+.kh {
+  position: absolute;
+  left: 363px;
+}
+
+.text {
+  font-size: 56px;
+  color: black;
+  text-align: center;
+  padding-top: 250px;
+}
+
+.subtext {
+  font-family: "Kalam", cursive;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.header-images {
+  padding-top: 200px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.img {
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.header-video {
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.video {
+  height: 700px;
+  width: 700px;
+}
+
+.sidebar {
+  width: 300px;
+  height: 100vh;
+  background-color: #000;
+  box-shadow: 5px 0 15px rgba(#050505, 1);
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.sidebar-content {
+  margin-top: -3rem;
+}
+
+.sidebar-header {
+  height: 180px;
+  background-color: #202020;
+}
+
+.sidebar-img {
+  display: block;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.profile-avatar {
+  cursor: crosshair;
+  display: block;
+  height: 100px;
+  width: 100px;
+  margin: 0 auto 1rem;
+  position: relative;
+
+  border: 2px solid white;
+  box-shadow: 0 7px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+}
+
+li {
+  list-style-type: none;
+}
+
+.ins {
+  height: 30px;
+  width: 30px;
+}
+
+.ind {
+  position: absolute;
+  left: 139px;
+  height: 30px;
+  width: 30px;
+}
+
+.profile-name {
+  font-family: "Kalam", cursive;
+  font-size: 1.8em;
+  text-align: center;
+}
+
+.profile-prof {
+  margin-bottom: 1rem;
+  font-family: "Kalam", cursive;
+  font-size: 1.4em;
+  font-weight: 300px;
+  color: #dedede;
+  text-align: center;
+}
+
+.social {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social-intems {
+  text-align: center;
+}
+
+.index {
+  position: absolute;
+  left: 790px;
+  height: 30px;
+  width: 30px;
+}
+
+.inses {
+  position: absolute;
+  right: 740px;
+  height: 30px;
+  width: 30px;
+}
+
+.header-con {
+  margin-left: 330px;
+  margin-right: 50px;
+}
+
+.container-khan {
+  margin-top: 70px;
+  margin-left: 363px;
+}
+
+.img-khan {
+  text-align: center;
+}
+
+.photo-khan {
+  height: 400px;
+  width: 400px;
+  border-radius: 0% 100% 0% 100% / 80% 20% 80% 20%;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.p-khan {
+  font-family: "Coming Soon", cursive;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.photo-nur {
+  height: 400px;
+  width: 400px;
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+.photo-zhan {
+  height: 400px;
+  width: 400px;
+
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+  border-radius: 10px 20px;
+}
+
+/* .hobby-book {
+  padding-top: 90px;
+  font-family: "Loved by the King", cursive;
+}
+
+.book-title {
+  font-family: "Oooh Baby", cursive;
+  font-size: 45px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.book-images {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.book-img {
+  margin: 0 30px;
+  height: 400px;
+  width: 350px;
+  box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+} */
+
+.footer {
+  background-color: #000;
+  background-size: auto;
+  padding: 50px 0;
+  color: #fff;
+  text-align: center;
+}
